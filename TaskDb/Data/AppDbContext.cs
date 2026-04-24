@@ -14,7 +14,7 @@ public class AppDbContext : DbContext {
                 Title = "Изучить ASP.NET Core",
                 Description = "Контроллеры, маршруты, middleware",
                 Priority = "High",
-                isCompleted = true,
+                IsCompleted = true,
                 CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, DateTimeKind.Utc)
             },
             new TaskItem {
@@ -22,7 +22,7 @@ public class AppDbContext : DbContext {
                 Title = "Подключить SQLite через EF Core",
                 Description = "Миграции, DbContext, LINQ-запросы",
                 Priority = "High",
-                isCompleted = false,
+                IsCompleted = false,
                 CreatedAt = new DateTime(2026, 1, 2, 0, 0, 0, DateTimeKind.Utc)
             },
             new TaskItem {
@@ -30,7 +30,7 @@ public class AppDbContext : DbContext {
                 Title = "Написать README",
                 Description = "Описать структуру проекта",
                 Priority = "Normal",
-                isCompleted = false,
+                IsCompleted = false,
                 CreatedAt = new DateTime(2026, 1, 3, 0, 0, 0, DateTimeKind.Utc)
             }
         );
